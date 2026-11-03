@@ -61,7 +61,7 @@ Output
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-03T19:02:38.340Z  
+**Submitted:** 2026-11-03T19:07:25.918Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -74,8 +74,8 @@ int main() {
     for(int i=0;i<t;i++){
         cin >> n;
         int a = 50*n;
-        int b = a*70/100;
-        cout << a-b;
+        int b = a*30/100;
+        cout << b ;
         cout << endl;
     }
 }
