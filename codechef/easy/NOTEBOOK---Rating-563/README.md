@@ -1,0 +1,37 @@
+# NOTEBOOK - Rating 563
+
+![Difficulty](https://img.shields.io/badge/Difficulty-Easy-green)
+
+## Problem
+
+_Description not available._
+
+## Solution
+
+**Language:** c_cpp  
+**Runtime:** N/A  
+**Memory:** N/A  
+**Submitted:** 2026-11-03T19:07:28.403Z  
+
+```c_cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+    int t , n;
+    cin >> t;
+    for(int i=0;i<t;i++){
+        cin >> n;
+        int a = 50*n;
+        int b = a*30/100;
+        cout << b ;
+        cout << endl;
+    }
+}
+
+```
+
+---
+
+[View on CodeChef](https://www.codechef.com/problems/NOTEBOOK)
