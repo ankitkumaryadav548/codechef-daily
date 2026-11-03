@@ -1,0 +1,17 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+    int t , x;
+    cin >> t;
+    int sum = 0;
+    for(int i=0;i<t;i++){
+        cin >> x;
+        if(x<=100) cout << x;
+        else if(x>100 && x<=1000) cout << x-25;
+        else if(x>1000 && x<=5000) cout << x-100;
+        else cout << x-500;
+        cout << endl;
+    }
+}
