@@ -57,7 +57,7 @@ YES
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-03T12:30:56.504Z  
+**Submitted:** 2026-11-03T12:26:13.369Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -65,16 +65,13 @@ using namespace std;
 
 int main() {
 	// your code goes here
-   int t, x, y;
-    cin >> t;
-
-    for(int i = 0; i < t; i++) {
-        cin >> x >> y;
-
-        if(2 * y >= x)
-            cout << "YES" << endl;
-        else
-            cout << "NO" << endl;
+    int t , x , y ;
+    cin >> t ;
+    for(int i=0;i<t;i++){
+        cin >> x >> y ;
+        if(x/2 > y) cout << "NO";
+        else cout << "YES";
+        cout << endl;
     }
 }
 
