@@ -56,7 +56,7 @@ Output
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-04T18:11:59.099Z  
+**Submitted:** 2026-11-04T18:13:24.077Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -69,7 +69,7 @@ int main() {
     for(int i=0;i<t;i++){
         cin >> n >> x;
         if(n < x) cout << "0";
-        else if((n-x)%4 != 0) cout << (n-x)%4;
+        else if((n-x)%4 != 0) cout << (n-x)/4 +1;
         else cout << (n-x)/4;
         cout << endl;
     }
