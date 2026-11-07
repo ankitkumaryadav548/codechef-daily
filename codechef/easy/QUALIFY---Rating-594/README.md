@@ -58,7 +58,7 @@ Qualify
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-07T14:03:39.122Z  
+**Submitted:** 2026-11-07T14:04:07.865Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
