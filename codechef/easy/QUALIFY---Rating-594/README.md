@@ -58,7 +58,7 @@ Qualify
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-07T14:03:12.368Z  
+**Submitted:** 2026-11-07T14:04:36.165Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -68,9 +68,9 @@ int main() {
 	// your code goes here
     int t , x , a , b;
     cin >> t;
-    for(int i=t;i++){
+    for(int i=0;i<t;i++){
         cin >> x >> a >> b;
-        if(a*1+b*2 > x) cout  << "Qualify";else cout << "NotQualify"; cout << endl;
+        if(a*1+b*2 >= x) cout  << "Qualify";else cout << "NotQualify"; cout << endl;
     }
 }
 
