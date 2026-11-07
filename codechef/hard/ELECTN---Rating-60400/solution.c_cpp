@@ -1,0 +1,20 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+    int t , n , x ;
+    cin >> t ;
+    for(int i=0;i<t;i++){
+        cin >> n >> x ;
+        int arr[n];
+        int s = 0;
+        for(int j=0;j<n;j++){
+            cin >> arr[j];
+            if(arr[j]>=x) s = s+1;
+        }
+        cout << s;
+        cout << endl;
+        
+    }
+}
