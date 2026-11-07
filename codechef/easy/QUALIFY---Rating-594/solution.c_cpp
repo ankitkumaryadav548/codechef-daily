@@ -7,6 +7,6 @@ int main() {
     cin >> t;
     for(int i=t;i++){
         cin >> x >> a >> b;
-        if(a*1+b*2 > x)  << "Qualify";else cout << "NotQualify"; cout << endl;
+        if(a*1+b*2 > x) cout  << "Qualify";else cout << "NotQualify"; cout << endl;
     }
 }
