@@ -52,7 +52,7 @@ Output
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-08T06:38:14.553Z  
+**Submitted:** 2026-11-08T06:40:19.906Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -64,7 +64,7 @@ int main() {
     cin >> t;
     for(int i=0;i<t;i++){
         cin >> a >> b >> c ;
-        if(a>b && a>c) cout << a;
+        if(a>=b && a>=c) cout << a;
         else if(b>c && b>a) cout << b;
         else cout << c;
         cout << endl;
