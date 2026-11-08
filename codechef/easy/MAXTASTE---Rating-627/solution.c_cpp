@@ -8,15 +8,8 @@ int main() {
     cin >> t;
     for (int i = 0; i < t; i++) {
         cin >> a >> b >> c >> d;
-        if (a > b && c > d)
-            cout << a + c;
-        else if (a > b && d > c)
-            cout << a + d;
-        else if (b > a && c > d)
-            cout << b + c;
-        else
-            cout << b + d;
+        int max_taste = max(a, b) + max(c, d);
 
-        cout << endl;
+        cout << max_taste << "\n";
     }
 }
