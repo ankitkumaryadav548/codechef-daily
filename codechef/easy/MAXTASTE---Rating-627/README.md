@@ -47,7 +47,7 @@ Output
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-08T07:09:22.279Z  
+**Submitted:** 2026-11-08T07:10:39.298Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -60,16 +60,9 @@ int main() {
     cin >> t;
     for (int i = 0; i < t; i++) {
         cin >> a >> b >> c >> d;
-        if (a > b && c > d)
-            cout << a + c;
-        else if (a > b && d > c)
-            cout << a + d;
-        else if (b > a && c > d)
-            cout << b + c;
-        else
-            cout << b + d;
+        int max_taste = max(a, b) + max(c, d);
 
-        cout << endl;
+        cout << max_taste << "\n";
     }
 }
 ```
