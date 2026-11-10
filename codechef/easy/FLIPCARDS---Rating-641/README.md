@@ -61,7 +61,7 @@ Output
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-10T05:00:55.815Z  
+**Submitted:** 2026-11-10T05:01:54.771Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -74,6 +74,7 @@ int main() {
     for(int i=0;i<t;i++){
         cin >> n >> x ;
         if(n==x) cout << 0;
+        else if(x == 0) cout << 0;
         else cout << x;
         cout << endl;
     }
