@@ -61,7 +61,7 @@ Output
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-10T05:05:34.585Z  
+**Submitted:** 2026-11-10T05:04:50.800Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -73,8 +73,11 @@ int main() {
     cin >> t ;
     for(int i=0;i<t;i++){
         cin >> n >> x ;
-        cout << min(x, n - x) << "\n";
-}
+        if(n==x) cout << 0;
+        else if(x == 0) cout << 0;
+        else cout << x;
+        cout << endl;
+    }
 }
 
 ```
