@@ -57,7 +57,7 @@ Output
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-10T05:20:40.983Z  
+**Submitted:** 2026-11-10T05:23:24.765Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -69,8 +69,12 @@ int main() {
     cin >> t ;
     for(int i=0;i<t;i++){
         cin >> n >> m ;
-        cout << 2*n-m;
-        cout << endl;
+        if(m >= n) {
+            cout << n << endl;
+        }
+        else {
+            cout << 2*n-m << endl;
+        }
     }
 }
 
