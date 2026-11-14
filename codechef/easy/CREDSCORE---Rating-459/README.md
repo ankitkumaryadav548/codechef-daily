@@ -62,7 +62,7 @@ Since $251 \lt 750$, it is not possible to access CRED programs.
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-13T18:29:11.452Z  
+**Submitted:** 2026-11-13T18:29:49.340Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
