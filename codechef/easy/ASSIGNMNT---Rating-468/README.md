@@ -57,7 +57,7 @@ Thus, he would be able to complete the assignments in $1$ day.
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-16T18:22:26.531Z  
+**Submitted:** 2026-11-17T18:00:55.299Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
