@@ -4,7 +4,7 @@ using namespace std;
 int main() {
 	// your code goes here
 	int x ; 
-	if(x+7 < 170) cout << "Yes";
+	if(x+7 <= 170) cout << "Yes";
 	else cout << "No";
 	cout << endl;
 
