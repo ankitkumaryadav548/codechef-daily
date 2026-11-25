@@ -25,14 +25,13 @@ Explanation: 3rd smallest element in the given array is 7.
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-25T10:09:54.068Z  
+**Submitted:** 2026-11-25T10:12:50.973Z  
 
 ```cpp
 
 class Solution {
-public:
+  public:
     int kthSmallest(vector<int> &arr, int k) {
-
         sort(arr.begin(), arr.end());
 
         return arr[k - 1];
