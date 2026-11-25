@@ -59,7 +59,7 @@ Note that there are other possible ways as well.
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-24T18:29:13.937Z  
+**Submitted:** 2026-11-25T17:46:48.174Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
