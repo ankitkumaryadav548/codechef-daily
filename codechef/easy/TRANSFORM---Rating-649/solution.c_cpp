@@ -1,0 +1,23 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t , x ; 
+	cin >> t ;
+	  vector<string>st ;  
+	    st.push_back("normal");
+	    st.push_back("huge");
+	    st.push_back("small");
+	for(int i=0;i<t;i++){
+	    int n = st.size() ; 
+	    string p = "";
+	    cin >> x ;
+	    int z = x%n ; 
+	    for(int j=0;j<=z;j++){
+	        p = st[j] ;   
+	    }
+	    cout << p << endl ; 
+	}
+
+}
