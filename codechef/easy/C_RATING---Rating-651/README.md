@@ -55,7 +55,7 @@ Output
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-28T12:51:39.856Z  
+**Submitted:** 2026-11-28T12:53:40.516Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -68,7 +68,7 @@ int main() {
 	for(int i=0;i<t;i++){
 	    cin >> x >> y ; 
 	    int count = 0;
-	    for(int i=10;i<y;i = i+8){
+	    for(int i=x;i<y;i = i+8){
 	        int b = i ;
 	        count++ ;
 	}
