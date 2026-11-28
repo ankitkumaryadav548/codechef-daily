@@ -55,48 +55,48 @@ Output
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-28T13:02:22.058Z  
+**Submitted:** 2026-11-28T13:02:35.926Z  
 
 ```c_cpp
-// #include <bits/stdc++.h>
-// using namespace std;
-
-// int main() {
-// 	// your code goes here
-// 	int t , x , y ;
-// 	cin >> t ;
-// 	for(int i=0;i<t;i++){
-// 	    cin >> x >> y ; 
-// 	    int count = 0;
-// 	    for(int i=x;i<y;i = i+8){
-// 	        count++ ;
-// 	}
-// 	cout << count << endl;
-// 	}
-
-// }
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-    int t, x, y;
-    cin >> t;
+	// your code goes here
+	int t , x , y ;
+	cin >> t ;
+	for(int i=0;i<t;i++){
+	    cin >> x >> y ; 
+	    int count = 0;
+	    for(int i=x;i<y;i = i+8){
+	        count++ ;
+	}
+	cout << count << endl;
+	}
 
-    while(t--) {
-        cin >> x >> y;
-
-        int count = 0;
-
-        while(x < y) {
-            x = x + 8;
-            count++;
-        }
-
-        cout << count << endl;
-    }
-
-    return 0;
 }
+// #include <bits/stdc++.h>
+// using namespace std;
+
+// int main() {
+//     int t, x, y;
+//     cin >> t;
+
+//     while(t--) {
+//         cin >> x >> y;
+
+//         int count = 0;
+
+//         while(x < y) {
+//             x = x + 8;
+//             count++;
+//         }
+
+//         cout << count << endl;
+//     }
+
+//     return 0;
+// }
 ```
 
 ---
