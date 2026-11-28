@@ -55,7 +55,7 @@ Output
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-28T13:02:35.926Z  
+**Submitted:** 2026-11-28T13:02:54.590Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -75,28 +75,7 @@ int main() {
 	}
 
 }
-// #include <bits/stdc++.h>
-// using namespace std;
 
-// int main() {
-//     int t, x, y;
-//     cin >> t;
-
-//     while(t--) {
-//         cin >> x >> y;
-
-//         int count = 0;
-
-//         while(x < y) {
-//             x = x + 8;
-//             count++;
-//         }
-
-//         cout << count << endl;
-//     }
-
-//     return 0;
-// }
 ```
 
 ---
